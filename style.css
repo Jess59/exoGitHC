@@ -9,11 +9,7 @@ la totalité de la page.
     margin: 0 auto;
     padding: 0;
 }
-/*.container {
-    width: 1200px;
-    text-align: center;
-    color : white;
-}*/
+
 body{
     width: 90%;
 }
@@ -28,7 +24,7 @@ header {
 }
 
 #sec1{
-    background: lightseagreen;
+    background: mistyrose;
     margin-top : 20px;
     margin-bottom: 20px;
     height: 400px;
@@ -37,6 +33,17 @@ header {
     text-align: center;
 }
 #sec2{
+    background:white;
+    margin-top : 20px;
+    margin-bottom: 20px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.square{
+
     background: lightseagreen;
     margin-top : 20px;
     margin-bottom: 20px;
@@ -45,7 +52,7 @@ header {
     align-items: center;
     text-align: center;
 }
-#foot{
+footer{
     background: lightslategray;
     margin-top : 20px;
     margin-bottom: 20px;
