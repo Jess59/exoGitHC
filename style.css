@@ -6,26 +6,29 @@ textes et les passer en blanc pour
 la totalité de la page.
 *******************************/
 *{
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0;
 }
 
 body{
     width: 90%;
+    margin: 0 auto;
 }
 header {
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: lightslategray;
-    padding: 60px;
+    height: 60px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
 }
  ul {
-    list-style-type:none;
-    display: flex;
-    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
 }
   
 #sec1{
@@ -35,6 +38,7 @@ header {
     height: 400px;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
 }
 #sec2{
@@ -43,7 +47,7 @@ header {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
     height: auto;
     padding-top: 50px;
     flex-wrap:wrap;
