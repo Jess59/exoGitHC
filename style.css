@@ -22,7 +22,12 @@ header {
     align-items: center;
     text-align: center;
 }
-
+ ul {
+    list-style-type:none;
+    display: flex;
+    
+}
+  
 #sec1{
     background: mistyrose;
     margin-top : 20px;
@@ -36,21 +41,35 @@ header {
     background:white;
     margin-top : 20px;
     margin-bottom: 20px;
-    height: 400px;
     display: flex;
     align-items: center;
     text-align: center;
+    height: auto;
+    padding-top: 50px;
+    flex-wrap:wrap;
 }
 
 .square{
 
     background: lightseagreen;
-    margin-top : 20px;
-    margin-bottom: 20px;
-    height: 400px;
+    margin: 50px;
+    height: 200px;
+    width: 200px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    text-align: center;
+    /*text-align: center;*/
+    justify-content: center;
+}
+
+.square div {
+    height: 100px;
+    width: 100px;
+    background-color: lightgrey;
+}
+/*Pour survoler le carrés et qu'ils disparaissent*/
+.square:hover div{
+    display: none;
 }
 footer{
     background: lightslategray;
